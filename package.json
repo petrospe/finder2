@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@vue/cli": "^4.4.6",
     "strapi": "3.0.1",
     "strapi-admin": "3.0.1",
     "strapi-connector-mongoose": "3.0.1",
