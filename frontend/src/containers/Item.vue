@@ -36,7 +36,7 @@ export default {
       item: {},
       moment: moment,
       api_url: process.env.VUE_APP_STRAPI_API_URL,
-      routeParam: this.$route.params._id
+      routeParam: this.$route.params.id
     };
   },
   components: {
@@ -45,7 +45,7 @@ export default {
   apollo: {
     item: {
       query: gql`
-        query Items($id: String!) {
+        query Items($id: ID!) {
           item(id: $id) {
             _id
             title
@@ -60,7 +60,7 @@ export default {
       `,
       variables() {
         return {
-          _id: this.routeParam
+          id: this.routeParam
         };
       }
     }
