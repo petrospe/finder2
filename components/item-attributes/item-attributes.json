@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_item_attributes_item_attributes",
+  "info": {
+    "name": "ItemAttributes",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "attribute": {
+      "model": "attributes"
+    }
+  }
+}

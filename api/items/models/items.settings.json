@@ -42,8 +42,10 @@
     "price": {
       "type": "float"
     },
-    "attribute_values": {
-      "type": "json"
+    "ItemAttributes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item-attributes.item-attributes"
     }
   }
 }
