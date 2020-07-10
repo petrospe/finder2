@@ -36,6 +36,9 @@
     },
     "status": {
       "model": "statuses"
+    },
+    "items": {
+      "collection": "items"
     }
   }
 }

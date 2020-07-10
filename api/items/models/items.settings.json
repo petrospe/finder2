@@ -38,6 +38,12 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "price": {
+      "type": "float"
+    },
+    "attribute_values": {
+      "type": "json"
     }
   }
 }
